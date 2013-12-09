@@ -16,10 +16,10 @@ def find_num_divisors(num):
         i += 1
         summ += i
         counter = 0
-        
-        sqrt_num = int(math.sqrt(summ))
-        
-        for j in range(1,sqrt_num+1):
+
+
+
+        for j in range(1,int(summ/2)+1):
             if not summ % j:
                 counter += 1
     return [summ,i,counter]
