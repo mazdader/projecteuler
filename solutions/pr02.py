@@ -17,5 +17,5 @@ def find_sum_even(seq):
     return result
  
  
-if __name__ == '__main__':
+def solve():
     print find_sum_even(create_fibonacci(4000000))

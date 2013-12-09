@@ -18,5 +18,5 @@ def find_prime_sum(num):
     return result
  
  
-if __name__ == '__main__':
+def solve():
     print find_prime_sum(2000000)

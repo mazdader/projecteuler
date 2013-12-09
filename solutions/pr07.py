@@ -20,6 +20,6 @@ def find_prime_at_pos(pos):
     return curr
 
 
-if __name__ == '__main__':
+def solve():
     print find_prime_at_pos(10001)
 

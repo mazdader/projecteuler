@@ -20,7 +20,7 @@ def find_min_num(num_of_digits):
     result = int(pow(math.pow(10, num_of_digits-1), 2))
     return result 
  
-if __name__ == '__main__':
+def solve():
     num = 3
     print find_min_num(num)
     print find_max_num(num)

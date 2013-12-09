@@ -17,5 +17,5 @@ def find_min_div(num):
     return false
     
  
-if __name__ == '__main__':
+def solve():
     print find_min_div(20)

@@ -25,5 +25,5 @@ def find_num_divisors(num):
     return [summ,i,counter]
  
  
-if __name__ == '__main__':
+def solve():
     print find_num_divisors(500)

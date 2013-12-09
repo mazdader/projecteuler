@@ -9,7 +9,7 @@ def find_sum(num):
     return result
  
  
-if __name__ == '__main__':
+def solve():
     print find_sum(1000)
 
 """    

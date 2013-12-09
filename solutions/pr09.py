@@ -16,6 +16,6 @@ def find_triplet(target):
     return result
  
  
-if __name__ == '__main__':
+def solve():
     print find_all_values(1000)
     

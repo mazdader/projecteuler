@@ -21,7 +21,7 @@ def find_prime_factors(num):
     return result
  
  
-if __name__ == '__main__':
+def solve():
  
     prime_factors = find_prime_factors(600851475143)
     print prime_factors[-1]

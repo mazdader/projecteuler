@@ -16,7 +16,7 @@ def find_square_sum(num):
     return int(pow(sum,2))
  
  
-if __name__ == '__main__':
+def solve():
     num = 100
     print find_square_sum(num) - find_sum_squares(num)
     
