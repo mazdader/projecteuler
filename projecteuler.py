@@ -1,4 +1,4 @@
-from solutions import pr22
+from solutions import pr23
 
 if __name__ == '__main__':
-    pr22.solve()
+    pr23.solve()
