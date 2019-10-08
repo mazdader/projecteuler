@@ -2,6 +2,7 @@
 
 import math
 
+
 def is_prime(num):
     """Checks if num is prime number"""
     for i in range(2, int(math.sqrt(num)) + 1):
@@ -21,5 +22,4 @@ def find_prime_at_pos(pos):
 
 
 def solve():
-    print find_prime_at_pos(10001)
-
+    print(find_prime_at_pos(10001))
