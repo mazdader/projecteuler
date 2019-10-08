@@ -1,14 +1,11 @@
-def find_num_routes(boxSize):
+from num2words import num2words
 
-    num_routes = 0
-
-    for i in range(boxSize):
-        for j in range(boxSize):
-            for k in range(boxSize):
-                for n in range(boxSize):
-                    pass
-
-    return num_routes
 
 def solve():
-    pass
+    total_len = 0
+    for num in range(1, 1001):
+        text = num2words(num).replace(' ', '').replace('-', '')
+        total_len += len(text)
+        print(text)
+
+    print(total_len)
